@@ -6,4 +6,4 @@ const hodinaDen = Number(prompt("Zadejte odpracovaný počet hodin za den"))
 const dnyMesic = Number(prompt("Zadejte odpracovaný počet dní v měsíci "))
 
 const vyplata = (hodinovaMzda * hodinaDen * dnyMesic)
-document.body.innerHTML += "<p>Tvoje mzda je: " + vyplata + "Kč</p>"
+document.body.innerHTML += "<p>Tvoje mzda je: " + vyplata + " Kč</p>"
